@@ -9,6 +9,12 @@
 
 let x = prompt("Введите:");
 let y = Number(x);
-if(y != Number){
+if(typeof(y) == Number){
     alert("Ошибка!");
 }
+
+
+// const alex = "lesa";
+// let age = 16;
+// const result = `Имя: ${alex}, возраст: ${age}`;
+// console.log(result); 
